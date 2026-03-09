@@ -115,7 +115,8 @@ int main()
   printf("PIB per Capita: %.2f reais \n", pibpercapita2);
   printf("Super Poder: %.2f \n\n", superpoder_cid2);
 
-  // Comparação das cartas
+  /*
+  // Comparação das cartas - Tema 2
 
   printf("Comparação de Cartas: \n");
   printf("(1 para verdadeiro, 0 para falso\n");
@@ -127,6 +128,18 @@ int main()
   printf("Densidade Populacional: Carta 1 venceu \n", densidade1 < densidade2);
   printf("PIB per Capita: Carta 1 venceu \n", pibpercapita1 > pibpercapita2);
   printf("Super Poder: Carta 1 venceu \n", superpoder_cid1 > superpoder_cid2);
+  */
+
+  //Comparação de um atributo de cartas (pontos turísticos) - Tema 3 nível novato
+
+  printf("Comparação de Cartas (Atributo: Número de Pontos Turísticos) \n");
+  printf("Carta 1 - %s: %d \n", nome_cid1, pontos_cid1);
+  printf("Carta 2 - %s: %d \n", nome_cid2, pontos_cid2);
+  if (pontos_cid1 > pontos_cid2){
+    printf("Resultado: Carta 1 venceu! \n");
+  } else {
+    printf("Resultado: Carta 2 venceu! \n");
+  }
 
   return 0;
 }
